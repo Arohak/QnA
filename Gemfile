@@ -52,5 +52,9 @@ end
 
 group :test do
   gem 'shoulda-matchers'
+  #video_5
+  gem 'capybara'
+  gem 'devise'
+  gem 'launchy'
 end
 
