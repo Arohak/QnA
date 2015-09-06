@@ -46,7 +46,6 @@ group :development, :test do
 
   #new
   gem 'rspec-rails'
-
   gem 'factory_girl_rails', '~> 4.0'
 end
 
@@ -56,5 +55,9 @@ group :test do
   gem 'capybara'
   gem 'devise'
   gem 'launchy'
+  #video_6
+  gem 'selenium-webdriver'
+  gem 'database_cleaner'
+
 end
 
